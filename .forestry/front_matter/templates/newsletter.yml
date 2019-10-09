@@ -31,3 +31,5 @@ fields:
     time_format: 
     display_utc: false
   default: now
+pages:
+- newsletters/grace-notes-oct-09-2019.md

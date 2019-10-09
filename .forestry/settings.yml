@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
+- type: document
+  path: content/about/info.md
+  label: Info Page
 - type: directory
   path: newsletters
   label: Newsletters
@@ -11,11 +16,6 @@ sections:
   match: "**/*"
   templates:
   - newsletter
-- type: heading
-  label: Content
-- type: document
-  path: content/about/info.md
-  label: Info Page
 - type: directory
   path: content/blog-posts
   label: Blog posts
